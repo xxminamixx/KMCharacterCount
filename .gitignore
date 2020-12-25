@@ -116,3 +116,4 @@ coverage/
 !/dev/ci/**/Gemfile.lock
 
 *.aab
+.firebaserc
