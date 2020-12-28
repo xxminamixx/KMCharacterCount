@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:km_character_count/Utility/Screen.dart';
 import 'package:km_character_count/Widget/HomeWidget.dart';
 
 void main() {

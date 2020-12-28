@@ -55,7 +55,7 @@ class _HomeWidget extends State<HomeWidget> {
           keyboardType: TextInputType.multiline,
           autofocus: true,
           maxLines: null,
-          cursorHeight: 1.0,
+          cursorHeight: 16.0,
           decoration: InputDecoration(
             border: OutlineInputBorder(),
             labelText: '文字数をカウントします',
@@ -134,9 +134,8 @@ class _HomeWidget extends State<HomeWidget> {
     final text = _textController.text;
     setState(() {
       this._characterCount = text.length;
-      this.opacityLevel = opacityLevel == 0 ? 1.0 : 1.0;
+      this.opacityLevel = 1.0;
     });
-
   }
 
 }
